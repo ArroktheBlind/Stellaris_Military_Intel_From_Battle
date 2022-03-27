@@ -16,7 +16,10 @@ country_event = {
 
 country_event = {
 	id = More_Military_Intel.2
-	hide_window = yes
+	title = More_Military_Intel.title
+	desc = More_Military_Intel.desc
+	picture = GFX_evt_exploding_ship
+	hide_window = no
 	is_triggered_only = yes	# Fire only when called from elsewhere.
 	trigger = {
 		#this country won a battle
@@ -24,5 +27,8 @@ country_event = {
 	immediate = {
 		#this counry gets a level 3 military intel report on the opposition
 		add_intel_report = { category = military level = 3 days = 1 who = this }
+	}
+	option = {
+		name = More_Military_Intel.desc
 	}
 }
