@@ -19,9 +19,10 @@ country_event = {
 	hide_window = yes
 	is_triggered_only = yes	# Fire only when called from elsewhere.
 	trigger = {
-		#one of this country's fleets wins a battle
+		#this country won a battle
 	}
 	immediate = {
-		#get a level 3 military intel report on the opposition
+		#this counry gets a level 3 military intel report on the opposition
+		add_intel_report = { category = military level = 3 days = 1 who = this }
 	}
 }
