@@ -1,4 +1,4 @@
 ﻿l_english:
-  More_Military_Intel.title:0 "Enemy Fleet Intel Incoming"
-  More_Military_Intel.desc:0 "Our fleet has relayed information about the enemie's ship designs following our victory "
+  More_Military_Intel.title:0 "Combat Intel Report"
+  More_Military_Intel.desc:0 "Our fleet has relayed information about the [From.GetName] ship designs following our victory "
   More_Military_Intel.ack:0 "Acknowledged"
