@@ -26,7 +26,7 @@ country_event = {
 	}
 	immediate = {
 		#this counry gets a level 3 military intel report on the opposition
-		add_intel_report = { category = military level = 3 days = 720 who = from }
+		add_intel_report = { category = military level = 4 days = 20 who = from }
 	}
 	option = {
 		name = More_Military_Intel.ack
