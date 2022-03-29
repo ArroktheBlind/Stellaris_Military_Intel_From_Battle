@@ -2,7 +2,7 @@ namespace = More_Military_Intel
 country_event = {
 	#fires an even on game start to set flag this mod is installed
 	id = More_Military_Intel.1
-	hide_window = no
+	hide_window = yes
 	fire_only_once = yes
 	trigger = {
 		NOT = {
@@ -19,16 +19,16 @@ country_event = {
 	title = More_Military_Intel.title
 	desc = More_Military_Intel.desc
 	picture = GFX_evt_exploding_ship
-	hide_window = no
+	hide_window = yes
 	is_triggered_only = yes	# Fire only when called from elsewhere.
 	trigger = {
 		#this country won a battle
 	}
 	immediate = {
 		#this counry gets a level 3 military intel report on the opposition
-		add_intel_report = { category = military level = 4 days = 20 who = from }
+		add_intel_report = { category = military level = 4 days = 40 who = from }
 	}
-	option = {
-		name = More_Military_Intel.ack
-	}
+	# option = {
+	# 	name = More_Military_Intel.ack
+	# }
 }
